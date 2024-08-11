@@ -54,7 +54,7 @@ Email.send({
     Username : "hf71919@gmail.com",
     Password : "870EC910642FFC40C270C5784F5C3047CC22",
     To : 'arvindkumarsikandra2002@gmail.com',
-    From : "hf71919@gmail.com",
+    From : "you@isp.com",
     Subject : "This is the subject",
     Body : "And this is the body"
 }).then(
