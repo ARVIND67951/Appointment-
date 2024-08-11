@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function sendEmail(){
 Email.send({
-    Host : "smtp.elasticemail.com",
+    Host : "smtp.gmail.com",
     Username : "arvindkumarsikandra2002@gmail.com",
     Password : "A528380D68790CFD81AF433D726C8FAF5A48",
     To : 'arvindkumarsikandra2002@gmail.com',
-    From : "you@isp.com",
+    From : document.getElementId("email").value,
     Subject : "This is the subject",
     Body : "And this is the body"
 }).then(
