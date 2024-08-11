@@ -27,7 +27,7 @@
         <label for="time">Time:</label>
         <input type="time" id="time" name="time" required>
       </div>
-      <button type="submit">Book Appointment</button>
+      <button onclick="sendEmail()" type="submit">Book Appointment</button>
     </form>
     <div id="message"></div>
   </div>
@@ -41,7 +41,8 @@
       </div>
     </div>
   </div>
-
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
   <script src="script.js"></script>
 </body>
 </html>
