@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     input.addEventListener("blur", resumeAnimation);
   });
 });
+function sendEmail(){
 Email.send({
     Host : "smtp.elasticemail.com",
     Username : "hf71919@gmail.com",
@@ -59,3 +60,4 @@ Email.send({
 }).then(
   message => alert(message)
 );
+}
